@@ -23,9 +23,6 @@ const config = {
   // The viewport meta tag added to your HTML page's <head> tag
   viewport: 'width=device-width,initial-scale=1',
 
-  // Source file for favicon generation. 512x512px recommended.
-  favicon: path.join(ROOT, '/src/images/favicon.png'),
-
   // Local development URL
   dev_host: 'localhost',
 
