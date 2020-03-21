@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Static Site Boilerplate',
+  site_name: 'Ohhskar's Startpage',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'A startpage that emulates a terminal prompt running tree',
 
   // Your website's URL, used for sitemap
-  site_url: '',
+  site_url: 'https://ohhskar.github.io/startpage',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
