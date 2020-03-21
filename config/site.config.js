@@ -9,7 +9,7 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Ohhskar's Startpage',
+  site_name: "Ohhskar's Startpage",
 
   // Your website's description, used for favicon meta tags
   site_description: 'A startpage that emulates a terminal prompt running tree',

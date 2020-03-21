@@ -1,2 +1,33 @@
 // font-face rules. Do not forget to include font-display: swap in all rules
 // Overrides all default text styles
+
+h1,
+h2,
+span,
+li {
+  font-family: "Iosevka Term", monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-purple {
+  color: var(--color-purple);
+}
+
+.text-gray {
+  color: var(--color-gray);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}

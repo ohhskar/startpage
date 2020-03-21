@@ -2,3 +2,13 @@
 @import "~sanitize.css";
 @import "~sanitize.css/forms.css";
 @import "~sanitize.css/typography.css";
+@import "base/variable";
+@import "base/base";
+@import "base/typography";
+
+// -- Components --//
+@import "components/prompt";
+@import "components/links";
+
+// -- Pages -- //
+@import "pages/terminal";

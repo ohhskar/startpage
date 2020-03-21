@@ -1,0 +1,34 @@
+.prompt {
+  &__directory {
+    @extend .text-blue;
+  }
+
+  &__symbol {
+    @extend .text-purple;
+  }
+
+  &__command {
+    @extend .text-white;
+    margin-left: 1ch;
+  }
+
+  &__form {
+    @extend .text-primary;
+    display: flex;
+    margin-top: 1.5rem;
+  }
+
+  &__search {
+    @extend h1;
+    border: 0;
+    padding: 0;
+    margin-left: 1ch;
+
+    &:focus,
+    &:hover,
+    &:active {
+      outline: none;
+      border: 0;
+    }
+  }
+}

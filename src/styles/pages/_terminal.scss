@@ -1,0 +1,11 @@
+.terminal {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--color-bg);
+  padding: 10rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

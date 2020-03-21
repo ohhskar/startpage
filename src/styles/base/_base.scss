@@ -1,7 +1,18 @@
 // Styles the root and body elements
 :root {
-  font-size: 16px;
+  font-size: 12px;
 }
+
+/* stylelint-disable */
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* stylelint-enable */
 
 body {
   -webkit-font-smoothing: antialiased;

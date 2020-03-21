@@ -1,0 +1,62 @@
+.links {
+  margin-bottom: 1.5rem;
+
+  &__folder {
+    color: var(--color-blue);
+  }
+
+  ul {
+    padding-left: 4ch;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__root {
+    padding-left: 3ch !important;
+  }
+
+  li {
+    position: relative;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: -3ch;
+    }
+
+    &::before {
+      background-color: var(--color-gray);
+      top: 0.75rem;
+      height: 1px;
+      width: 2ch;
+    }
+
+    &::after {
+      background-color: var(--color-gray);
+      height: 100%;
+      width: 1px;
+      top: 0.225rem;
+    }
+
+    &:last-child {
+      &::after {
+        height: 0.5rem;
+      }
+    }
+  }
+
+  a {
+    @extend .text-gray;
+    text-decoration: none;
+    transition: color 0.1s ease;
+
+    &:hover,
+    &:focus {
+      @extend .text-primary;
+    }
+
+    &:active {
+      @extend .text-purple;
+    }
+  }
+}
