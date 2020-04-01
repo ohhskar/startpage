@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ohhskar.github.io/startpage/sitemap.xml
-Host: https://ohhskar.github.io
